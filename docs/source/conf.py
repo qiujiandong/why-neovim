@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Why Neovim'
+copyright = '2025, qiujiandong'
+author = 'Jiandong Qiu'
 
 release = '0.1'
 version = '0.1.0'
