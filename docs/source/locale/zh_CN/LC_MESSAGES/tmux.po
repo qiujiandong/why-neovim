@@ -1,0 +1,37 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Jiandong Qiu
+# This file is distributed under the same license as the Why Neovim package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Why Neovim 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-30 21:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/tmux/about.rst:2 9c179d95f8084f67a42c109fbda395ed
+msgid "About Tmux"
+msgstr "关于Tmux"
+
+#: ../../source/tmux/move_around.rst:2 3c8c09bbdbcb4777b0006c8c71cbd0e8
+msgid "Move in Tmux"
+msgstr "在Tmux中移动"
+
+#: ../../source/tmux/practice.rst:2 ebe81b63ce6241a69b6a2104a4a08d2e
+msgid "Tmux Practice"
+msgstr "Tmux实践"
+
+#: ../../source/tmux/save_context.rst:2 3efb905e3121495f92c060e3843e221f
+msgid "Save Context"
+msgstr "保存上下文"
+

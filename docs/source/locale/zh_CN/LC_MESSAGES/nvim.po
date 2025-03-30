@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2025, Jiandong Qiu
+# This file is distributed under the same license as the Why Neovim package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Why Neovim 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-30 21:57+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../source/nvim/auto_im.rst:2 cb455075f9a84ba5956b9141b30f0a58
+msgid "Auto Select Input Method"
+msgstr "自动切换输入法"
+
+#: ../../source/nvim/debug.rst:2 a2641f919ed346799248f7155df015d4
+msgid "Debug"
+msgstr "调试"
+
+#: ../../source/nvim/kickstart.rst:2 f44f58c3e49c4c27a52c572bf7ac45ae
+msgid "Kickstart"
+msgstr "如何入门"
+
+#: ../../source/nvim/move_around.rst:2 b4933a3acda4460f87e00200ee623ab9
+msgid "Move in Neovim"
+msgstr "在Neovim中移动"
+
+#: ../../source/nvim/practice.rst:2 8178f71849294ff9b6edbd7fb925c9b4
+msgid "Neovim Practice"
+msgstr "Neovim实践"
+
+#: ../../source/nvim/registers.rst:2 18eba4ccf9314204973bcc2a058a3c71
+msgid "Registers"
+msgstr ""
+
+#: ../../source/nvim/surround.rst:2 b72dfaba0c1f49d99f2cf0e96164312e
+msgid "Surround Modification"
+msgstr "Surround修改"
+
