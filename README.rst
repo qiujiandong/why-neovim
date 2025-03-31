@@ -1,12 +1,14 @@
+
 =================================
-Documentation about Why Neovim
+Why Neovim - Documentation
 =================================
 
 .. image:: https://img.shields.io/badge/status-active-brightgreen
    :alt: Project Status
    :target: https://why-neovim.readthedocs.io/en/latest/
 
-Welcome to the documentation repository for **Why Neovim**. This repository contains some of my experience about Neovim.
+Welcome to the documentation repository for **Why Neovim**.  
+This repository contains insights, experiences, and guides on using Neovim effectively.
 
 📖 **Read Online**: `Why Neovim <https://why-neovim.readthedocs.io/en/latest/>`_
 
@@ -21,30 +23,47 @@ The documentation is organized as follows:
     │   ├── make.bat
     │   ├── Makefile
     │   ├── requirements.txt
-    │   └── source
+    │   └── source/
     │       ├── conf.py         # Sphinx configuration
     │       ├── index.rst       # Documentation homepage
-    │       ├── locale/         # translation
-    │       ├── nvim/           # documentation about nvim
+    │       ├── locale/         # Translation files
+    │       ├── nvim/           # Neovim-related docs
     │       ├── overview.rst
     │       ├── quickstart.rst
-    │       ├── shell/          # documentation about shell
-    │       └── tmux/           # documentation about tmux
+    │       ├── shell/          # Shell-related docs
+    │       └── tmux/           # Tmux-related docs
     ├── LICENSE.txt
-    └── README.rst              # this file
+    └── README.rst              # This file
 
 🚀 **Build & Run Locally**
 ---------------------------------
-If you want to preview the documentation locally, you can use `Sphinx`:
+If you want to preview the documentation locally, follow these steps:
 
-.. code-block:: sh
+1. Install dependencies:
 
-    cd /path/to/docs
-    pip install -r requirements.txt
-    make html
+   .. code-block:: sh
 
-Then open ``build/index.html`` in your browser.
+      cd /path/to/docs
+      pip install -r requirements.txt
+
+2. Build the documentation:
+
+   .. code-block:: sh
+
+      make html
+
+   Then open ``build/index.html`` in your browser.
+
+3. (Optional) Use live preview with `sphinx-autobuild`:
+
+   .. code-block:: sh
+
+      pip install sphinx-autobuild
+      sphinx-autobuild source build/html
+
+   Open `http://127.0.0.1:8000/` in your browser for live updates.
 
 📜 **License**
 ---------------------------------
-This documentation is released under the Apache-2.0 License. See `LICENSE <LICENSE.txt>`_ for details.
+This documentation is released under the **Apache-2.0 License**.  
+See `LICENSE <LICENSE.txt>`_ for details.
