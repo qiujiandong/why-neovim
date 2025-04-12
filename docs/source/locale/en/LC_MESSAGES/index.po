@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2025, qiujiandong
+# Copyright (C) 2025, Jiandong Qiu
 # This file is distributed under the same license as the Why Neovim package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
@@ -11,9 +11,9 @@ msgstr ""
 "POT-Creation-Date: 2025-04-13 00:25+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh_CN\n"
-"Language-Team: zh_CN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/index.rst:39
 msgid "速览"
-msgstr ""
+msgstr "Overview"
 
 #: ../../source/index.rst:46
 msgid "Tmux"
@@ -45,6 +45,10 @@ msgid ""
 "<https://neovim.io>`_ 之前我一直使用 `VS Code <https://code.visualstudio.com>`_，"
 " VS Code非常直观易用，又有丰富的插件，已经能够满足我所有的工作需求了。"
 msgstr ""
+"Hi everyone, I'm an ordinary software engineer working mostly in embedded development, "
+"mainly using C/C++/Python. Before I discovered `Neovim <https://neovim.io>`_, "
+"I had always used `VS Code <https://code.visualstudio.com>`_. "
+"VS Code is intuitive and easy to use, with a rich plugin ecosystem that met all my development needs."
 
 #: ../../source/index.rst:9 e9c8b049da5d45f886b0cb84764f66b8
 msgid ""
@@ -52,6 +56,11 @@ msgid ""
 " 这也是我开始考虑使用Neovim的最直接原因。 VS Code里虽然也有很多键盘快捷键可以设置， "
 "但是我感觉基于Neovim的键盘操作更纯粹，体验更好。"
 msgstr ""
+"However, when using the mouse, I often unconsciously raise my shoulder, "
+"which over time caused intense pain in my right shoulder 😣. "
+"I figured that reducing mouse usage might alleviate the issue. "
+"That was the main reason I started considering Neovim. Although VS Code "
+"supports many keyboard shortcuts, I found Neovim’s keyboard-driven workflow to be more pure and enjoyable."
 
 #: ../../source/index.rst:15 414dd571c3ab47a2acb1d6f61522bc5b
 msgid ""
@@ -59,6 +68,7 @@ msgid ""
 "这种新奇的体验能让人深切地体会到Vim灵活而又强大的设计哲学。 因此我希望能通过这篇文档来分享一些Neovim的使用体会，以及解释“ **Why "
 "Neovim** ”。"
 msgstr ""
+"In my early days of using Neovim, some features of Neovim/Vim felt like a breath of fresh air — a refreshing experience that really made me appreciate Vim’s flexible and powerful design philosophy. That’s why I wanted to write this document to share my experiences and explore the question: **Why Neovim**."
 
 #: ../../source/index.rst:19 e80ea484502741ba83f4a892c478f229
 msgid ""
@@ -67,28 +77,34 @@ msgid ""
 "我顺便看了一下0.12版本的 `更新计划 <https://neovim.io/roadmap>`_ ，0.12+版本会变得更加开箱即用。 "
 "相信Neovim在不久的将来会受到更多开发者的欢迎和推荐。"
 msgstr ""
+"I think Neovim doesn’t necessarily have overwhelming advantages "
+"over other modern editors, but it certainly deserves a place among them. "
+"When I started writing this document, `Neovim 0.11 <https://github.com/neovim/neovim/releases/tag/v0.11.0>`_ had just been released. "
+"I also looked at the `roadmap for version 0.12 <https://neovim.io/roadmap>`_, "
+"and it looks like Neovim will become even more user-friendly out of the box. "
+"I believe it will be embraced and recommended by more developers soon."
 
 #: ../../source/index.rst:25 660b7c959e3d4b65a3e293062ca51d83
 msgid "About"
-msgstr "关于"
+msgstr ""
 
 #: ../../source/index.rst:27 3c3f93b8c9b14517b0428a69c43abb3d
 msgid "如果你对这个文档感兴趣，请查阅：:ref:`概述 <overview>` 和 :ref:`快速入门 <quick start>`。"
-msgstr ""
+msgstr "If you're interested in this document, please check out the :ref:`Overview <overview>` and :ref:`Quick Start <quick start>` sections."
 
 #: ../../source/index.rst:29 2bbe7debf0454b40b01a0b49b204db5d
 msgid "我会先从 :ref:`Tmux <about tmux>` 开始介绍， 强烈建议在使用 Neovim 前先了解 Tmux。"
-msgstr ""
+msgstr "I'll start with :ref:`Tmux <about tmux>`, and I strongly recommend getting familiar with Tmux before diving into Neovim."
 
 #: ../../source/index.rst:32 8a8abd4076e1410ba3cb86ce0140c4ac
 msgid "接着，一个好用的shell可以显著提高工作效率，我推荐使用 :ref:`Zsh <about shell>`。"
-msgstr ""
+msgstr "Next, a good shell can significantly improve your workflow. I recommend using :ref:`Zsh <about shell>`."
 
 #: ../../source/index.rst:34 89e659d575e54b6e913c2160f2a88e76
 msgid "最后，结合使用VS Code与Neovim的使用体验来介绍 :ref:`Neovim <kickstart>`。"
-msgstr ""
+msgstr "Finally, I'll introduce :ref:`Neovim <kickstart>` by comparing the experience of using it alongside VS Code."
 
 #: ../../source/index.rst:37 851b5cf7038941a98f9ed78f831ecc04
 msgid "Contents"
-msgstr "目录"
+msgstr ""
 

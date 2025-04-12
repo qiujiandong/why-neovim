@@ -1,39 +1,50 @@
 Why Neovim
-===================================
+==========
 
-Hi, everyone! I mainly work with C/C++/Python development, and I have been using `VS Code <https://code.visualstudio.com>`_ for a long time. I find VS Code very intuitive and convenient—it has a low entry barrier, is easy to get started with, and is powerful enough to meet most work requirements.
+大家好，我是一名普通的软件开发工程师，我平时的工作偏嵌入式开发，
+主要的开发语言是C/C++/python。
+在接触 `Neovim <https://neovim.io>`_ 之前我一直使用 `VS Code <https://code.visualstudio.com>`_，
+VS Code非常直观易用，又有丰富的插件，已经能够满足我所有的工作需求了。
 
-However, recently, I started using `Neovim <https://neovim.io>`_ and discovered that some of its features are extremely useful—some of which VS Code doesn't even natively support. Here, I’d like to share some of my experiences and explain "\ **Why Neovim**\ ".
+但在使用鼠标的过程中，我总会不自觉地耸肩，长期下来导致我的右侧肩膀异常酸痛😣。
+我想如果能减少使用鼠标的频率，那么肩膀酸痛的问题应该也能得到缓解。
+这也是我开始考虑使用Neovim的最直接原因。
+VS Code里虽然也有很多键盘快捷键可以设置，
+但是我感觉基于Neovim的键盘操作更纯粹，体验更好。
 
-As I was preparing to write these thoughts, `Neovim 0.11 <https://github.com/neovim/neovim/releases/tag/v0.11.0>`_ had just been released. I also took a look at the `roadmap <https://neovim.io/roadmap>`_ for the upcoming 0.12 version, which is being referred to as "\ **The year of Nvim OOTB**\ " (Out of the Box). Future versions of Neovim will become even more user-friendly and ready to use from the start. I believe that in the near future, Neovim will gain even more recognition and recommendations from developers.
+在刚开始使用Neovim的这段时间里，Neovim/Vim的某些特性有种令人“眼前一亮”的感觉，
+这种新奇的体验能让人深切地体会到Vim灵活而又强大的设计哲学。
+因此我希望能通过这篇文档来分享一些Neovim的使用体会，以及解释“ **Why Neovim** ”。
+
+我觉得Neovim相较于其它一众现代的编辑器虽然没有绝对碾压的优势，但它还是能够占有一席之地的。
+准备开始写这片文档的时候，正值 `Neovim 0.11 <https://github.com/neovim/neovim/releases/tag/v0.11.0>`_ 版本发布。
+我顺便看了一下0.12版本的 `更新计划 <https://neovim.io/roadmap>`_ ，0.12+版本会变得更加开箱即用。
+相信Neovim在不久的将来会受到更多开发者的欢迎和推荐。
 
 About
 -----
 
-If you're interested in this document, please refer to :ref:`Overview <overview>` and :ref:`Quick Start <quick start>`
+如果你对这个文档感兴趣，请查阅：:ref:`概述 <overview>` 和 :ref:`快速入门 <quick start>`。
 
-I'll begin by introducing Tmux. In my opinion, before diving into Neovim, it's essential to first familiarize with :ref:`Tmux <about tmux>`.
+我会先从 :ref:`Tmux <about tmux>` 开始介绍，
+强烈建议在使用 Neovim 前先了解 Tmux。
 
-.. Note::
+接着，一个好用的shell可以显著提高工作效率，我推荐使用 :ref:`Zsh <about shell>`。
 
-    Using Neovim without Tmux is like using VS Code without a Workspace.
-
-Next, having a powerful shell can greatly enhance your workflow. I recommend using :ref:`Zsh <about shell>`.
-
-Finally, I'll discuss :ref:`Neovim <kickstart>`, primarily in comparison with VS Code.
+最后，结合使用VS Code与Neovim的使用体验来介绍 :ref:`Neovim <kickstart>`。
 
 Contents
 --------
 
 .. toctree::
    :maxdepth: 2
-   :caption: At a Glance
+   :caption: 速览
 
    overview
    quickstart
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Tmux
 
    tmux/about
@@ -42,7 +53,7 @@ Contents
    tmux/practice
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Shell
 
    shell/about
@@ -50,7 +61,7 @@ Contents
    shell/zsh
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Neovim
 
    nvim/kickstart
