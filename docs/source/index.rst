@@ -24,7 +24,7 @@ VS Code里虽然也有很多键盘快捷键可以设置，
 About
 -----
 
-如果你对这个文档感兴趣，请查阅：:ref:`概述 <overview>` 和 :ref:`快速入门 <quick start>`。
+如果你对这个文档感兴趣，请查阅：:ref:`概览 <overview>` 和 :ref:`快速入门 <quick start>`。
 
 我会先从 :ref:`Tmux <about tmux>` 开始介绍，
 强烈建议在使用 Neovim 前先了解 Tmux。

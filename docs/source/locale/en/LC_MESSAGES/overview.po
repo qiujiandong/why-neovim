@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-04-13 01:19+0800\n"
+"POT-Creation-Date: 2025-04-13 01:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,14 +55,17 @@ msgstr "Steep learning curve"
 
 #: ../../source/overview.rst:19 794230c005e243829b6499bf640bfc6a
 msgid "可能对大部分人来说，平时的开发工作本身就已经很辛苦了， 实在没有额外的精力用来学习Neovim。能够开箱即用的VS Code难道不好吗？"
-msgstr "For most people, daily development work is already exhausting. "
-"It's hard to find extra energy to learn Neovim. Isn’t VS Code, "
-"which works out of the box, good enough?"
+msgstr ""
+"For most people, daily development work is already exhausting. It's hard "
+"to find extra energy to learn Neovim. Isn’t VS Code, which works out of "
+"the box, good enough?"
 
 #: ../../source/overview.rst:22 9c1254c0ee63483bb7afbb892f6e2730
 msgid "确实如此，万事开头难。但我希望能够通过这个文档帮助更多人降低学习的门槛，更快地感受到Neovim/Vim的魅力所在。"
-msgstr "That’s true—getting started is always the hardest part. "
-"But I hope this documentation can help more people lower the learning barrier and experience the charm of Neovim/Vim more quickly."
+msgstr ""
+"That’s true—getting started is always the hardest part. But I hope this "
+"documentation can help more people lower the learning barrier and "
+"experience the charm of Neovim/Vim more quickly."
 
 #: ../../source/overview.rst:26 128d850f99084dc6af8b2cb05dacc463
 msgid "Why Tmux"
@@ -70,11 +73,15 @@ msgstr ""
 
 #: ../../source/overview.rst:28 4c24aeb0bc4e49ccac5f7a04ec65bf87
 msgid "Tmux是一个终端复用器（Terminal Multiplexer）。 Neovim是一个终端内的编辑器，学习使用Tmux有几个考虑："
-msgstr "Tmux is a terminal multiplexer. Neovim is an editor that runs in the terminal. There are several reasons to learn Tmux:"
+msgstr ""
+"Tmux is a terminal multiplexer. Neovim is an editor that runs in the "
+"terminal. There are several reasons to learn Tmux:"
 
 #: ../../source/overview.rst:31 a65f454559b146d3b4fc71ae853bf079
 msgid "编辑文件的时候，常常需要切换到不同的目录。"
-msgstr "When editing files, you often need to switch between different directories."
+msgstr ""
+"When editing files, you often need to switch between different "
+"directories."
 
 #: ../../source/overview.rst:32 f4d8aef6dd3c48dc974bd90b24d7e244
 msgid "编辑文件后，常常需要运行一些终端命令。"
@@ -82,23 +89,33 @@ msgstr "After editing files, you often need to run terminal commands."
 
 #: ../../source/overview.rst:33 323f26c4ae48411abb3239988a53137c
 msgid "Tmux和Neovim的快捷键设置需要一起考虑，避免冲突。"
-msgstr "Keybindings for Tmux and Neovim need to be considered together to avoid conflicts."
+msgstr ""
+"Keybindings for Tmux and Neovim need to be considered together to avoid "
+"conflicts."
 
 #: ../../source/overview.rst:35 e93e197c0fc040e38db0ded85556d9d4
 msgid "Tmux与Neovim配合使用可以让你的工作流变得更加灵活，更加高效。"
-msgstr "Using Tmux together with Neovim can make your workflow more flexible and efficient."
+msgstr ""
+"Using Tmux together with Neovim can make your workflow more flexible and "
+"efficient."
 
 #: ../../source/overview.rst:37 52ff750bac0943cfa7c7995d772ad1ff
 msgid ""
 "Tmux的配置一般来说也是比较繁琐的，但好在有很多开源的配置可以参考。 我参考了 samoshkin 的 `tmux-config "
 "<https://github.com/samoshkin/tmux-config>`_ 配置， 基本上也能做到让Tmux开箱即用。"
-msgstr "Configuring Tmux can be complicated, but fortunately there are many open-source configurations to refer to. I used `samoshkin/tmux-config <https://github.com/samoshkin/tmux-config>`_ as a reference, which makes Tmux almost ready to use out of the box."
+msgstr ""
+"Configuring Tmux can be complicated, but fortunately there are many open-"
+"source configurations to refer to. I used `samoshkin/tmux-config "
+"<https://github.com/samoshkin/tmux-config>`_ as a reference, which makes "
+"Tmux almost ready to use out of the box."
 
 #: ../../source/overview.rst:41 ac1febe42fdc479cbd3466c64b43cc33
 msgid ""
 "我的Tmux配置：`qiujiandong/tmux-config <https://github.com/qiujiandong/tmux-"
 "config>`_"
-msgstr "My Tmux config: `qiujiandong/tmux-config <https://github.com/qiujiandong/tmux-config>`_"
+msgstr ""
+"My Tmux config: `qiujiandong/tmux-config <https://github.com/qiujiandong"
+"/tmux-config>`_"
 
 #: ../../source/overview.rst:44 543d7ab9375045adaaffef83f3447a6c
 msgid "Neovim Kickstart"
@@ -108,20 +125,26 @@ msgstr ""
 msgid ""
 "入门Neovim最简单的方法是参考网上已有的配置。 Github上有很多人分享自己的Neovim配置，一般用的人越多，配置越经得起考验。 我是通过"
 " `kikstart.nvim <https://github.com/nvim-lua/kickstart.nvim>`_ 入门的。"
-msgstr "The easiest way to get started with Neovim is to refer to existing configurations online. "
-"Many people on GitHub share their Neovim setups. Generally, "
-"the more widely used a config is, the more proven it becomes. "
-"I got started using `kickstart.nvim <https://github.com/nvim-lua/kickstart.nvim>`_."
+msgstr ""
+"The easiest way to get started with Neovim is to refer to existing "
+"configurations online. Many people on GitHub share their Neovim setups. "
+"Generally, the more widely used a config is, the more proven it becomes. "
+"I got started using `kickstart.nvim <https://github.com/nvim-"
+"lua/kickstart.nvim>`_."
 
 #: ../../source/overview.rst:50 caa120961a964c309b98bf81369d82b1
 msgid ""
-"`TJ DeVries <https://github.com/tjdevries>`_ 甚至在Youtube上有一个视频介绍这个配置， "
+"\\ `TJ DeVries <https://github.com/tjdevries>`_ 甚至在Youtube上有一个视频介绍这个配置， "
 "对于刚入门的我来说是相当友好了！"
-msgstr "TJ DeVries <https://github.com/tjdevries>`_ even has a YouTube video introducing this configuration, which was super beginner-friendly for me!"
+msgstr ""
+"\\ `TJ DeVries <https://github.com/tjdevries>`_ even has a YouTube video "
+"introducing this configuration, which was super beginner-friendly for me!"
 
 #: ../../source/overview.rst:53 4a28e3ad444946e0ba9f3aa74c31f9aa
 msgid ""
 "我的Neovim配置：`qiujiandong/kickstart.nvim "
 "<https://github.com/qiujiandong/kickstart.nvim/tree/dev>`_"
-msgstr "My Neovim config: `qiujiandong/kickstart.nvim <https://github.com/qiujiandong/kickstart.nvim/tree/dev>`_"
+msgstr ""
+"My Neovim config: `qiujiandong/kickstart.nvim "
+"<https://github.com/qiujiandong/kickstart.nvim/tree/dev>`_"
 

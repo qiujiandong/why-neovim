@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Why Neovim 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-13 00:25+0800\n"
+"POT-Creation-Date: 2025-04-13 01:55+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -73,7 +73,7 @@ msgid "About"
 msgstr "关于"
 
 #: ../../source/index.rst:27 3c3f93b8c9b14517b0428a69c43abb3d
-msgid "如果你对这个文档感兴趣，请查阅：:ref:`概述 <overview>` 和 :ref:`快速入门 <quick start>`。"
+msgid "如果你对这个文档感兴趣，请查阅：:ref:`概览 <overview>` 和 :ref:`快速入门 <quick start>`。"
 msgstr ""
 
 #: ../../source/index.rst:29 2bbe7debf0454b40b01a0b49b204db5d

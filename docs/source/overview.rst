@@ -47,7 +47,7 @@ Neovim Kickstart
 Github上有很多人分享自己的Neovim配置，一般用的人越多，配置越经得起考验。
 我是通过 `kikstart.nvim <https://github.com/nvim-lua/kickstart.nvim>`_ 入门的。
 
-`TJ DeVries <https://github.com/tjdevries>`_ 甚至在Youtube上有一个视频介绍这个配置，
+\ `TJ DeVries <https://github.com/tjdevries>`_ 甚至在Youtube上有一个视频介绍这个配置，
 对于刚入门的我来说是相当友好了！
 
 我的Neovim配置：`qiujiandong/kickstart.nvim <https://github.com/qiujiandong/kickstart.nvim/tree/dev>`_
