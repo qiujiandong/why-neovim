@@ -1,0 +1,5 @@
+[tool.rstcheck]
+ignore_messages = [
+    "Unknown directive type",
+    "No directive entry for"
+]

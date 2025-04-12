@@ -14,6 +14,7 @@ version = "0.1.0"
 extensions = [
     "sphinx.ext.duration",
     "sphinx.ext.autosectionlabel",
+    "sphinxcontrib.youtube",
     # "sphinx.ext.graphviz",
 ]
 
@@ -23,4 +24,4 @@ locale_dirs = ["locale/"]
 gettest_compact = False
 gettext_uuid = True
 
-language = "en"
+language = "zh_CN"
