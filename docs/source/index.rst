@@ -66,8 +66,10 @@ Contents
 
    nvim/kickstart
    nvim/move_around
-   nvim/registers
-   nvim/surround
+   nvim/edit
+   nvim/lsp_config
+   nvim/workspace
+   nvim/dashboard
    nvim/debug
    nvim/auto_im
    nvim/practice

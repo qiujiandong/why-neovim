@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-03-30 21:57+0800\n"
+"POT-Creation-Date: 2025-04-13 22:15+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,12 +21,24 @@ msgstr ""
 msgid "Auto Select Input Method"
 msgstr ""
 
+#: ../../source/nvim/dashboard.rst:2 7d7ce68ab9ea4994a2404a0250fbdd78
+msgid "Dashboard"
+msgstr ""
+
 #: ../../source/nvim/debug.rst:2 a2641f919ed346799248f7155df015d4
 msgid "Debug"
 msgstr ""
 
+#: ../../source/nvim/edit.rst:2 ba9d077d92e645f0aaebb97b0fbf3f94
+msgid "Edit"
+msgstr ""
+
 #: ../../source/nvim/kickstart.rst:2 f44f58c3e49c4c27a52c572bf7ac45ae
 msgid "Kickstart"
+msgstr ""
+
+#: ../../source/nvim/lsp_config.rst:2 607df5f1f6c944febc9d42791f5cd4ed
+msgid "LSP Configuration"
 msgstr ""
 
 #: ../../source/nvim/move_around.rst:2 b4933a3acda4460f87e00200ee623ab9
@@ -37,11 +49,7 @@ msgstr ""
 msgid "Neovim Practice"
 msgstr ""
 
-#: ../../source/nvim/registers.rst:2 18eba4ccf9314204973bcc2a058a3c71
-msgid "Registers"
-msgstr ""
-
-#: ../../source/nvim/surround.rst:2 b72dfaba0c1f49d99f2cf0e96164312e
-msgid "Surround Modification"
+#: ../../source/nvim/workspace.rst:2 8b5dc643510b411e85fe7cdd008a4145
+msgid "Workspace"
 msgstr ""
 

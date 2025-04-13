@@ -1,2 +1,2 @@
-Registers
+Dashboard
 =========

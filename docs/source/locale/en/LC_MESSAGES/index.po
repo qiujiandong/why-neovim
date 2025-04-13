@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../source/index.rst:39
 msgid "速览"
-msgstr "Overview"
+msgstr "At a glance"
 
 #: ../../source/index.rst:46
 msgid "Tmux"

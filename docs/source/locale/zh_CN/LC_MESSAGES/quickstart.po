@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Why Neovim 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-30 21:57+0800\n"
+"POT-Creation-Date: 2025-04-13 22:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -19,7 +19,206 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 
-#: ../../source/quickstart.rst:2 7ee1c921ed514fabac7c4aaa388d966a
+#: ../../source/quickstart.rst:2 49a62fa0cae7487d9564ef5810d2ac8e
 msgid "Quick Start"
 msgstr "快速入门"
+
+#: ../../source/quickstart.rst:4 8820d6d2d8db458aaa94e8503bcf8196
+msgid "这一页主要对我想分享的内容做一个简要的介绍。"
+msgstr ""
+
+#: ../../source/quickstart.rst:7 d123acd37b5f42bf92ea54167f746d20
+msgid "Tmux"
+msgstr ""
+
+#: ../../source/quickstart.rst:9 4deae62657b7475ea71f8dcb6c41f35a
+msgid "详细了解 :ref:`Tmux <about tmux>`"
+msgstr ""
+
+#: ../../source/quickstart.rst:11 cf3a18c23baf40b9993c5d0d64c5b737
+msgid "关于Tmux的文档： `Tmux Wiki <https://github.com/tmux/tmux/wiki>`_ ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:12 cca637abb8aa437dab79fe3437a8d89c
+msgid "了解Tmux中 `session`, `window` 和 `pane` 的概念;"
+msgstr ""
+
+#: ../../source/quickstart.rst:13 9e1158d8bb4342e8a6ffeb887d9cebd1
+msgid "把 `<prefix>` 从默认的 `<Ctrl+b>` 改成 `<Ctrl+a>` 会更方便;"
+msgstr ""
+
+#: ../../source/quickstart.rst:14 1ccdc46ef5604bd9a4904381af134436
+msgid "`<prefix> + hjkl` 实现不同 `pane` 之间的移动;"
+msgstr ""
+
+#: ../../source/quickstart.rst:15 aef476fc1d9e4a67ae28d637cce65be6
+msgid "`<prefix> + |` / `<prefix> + _` 实现垂直/水平分割 `pane` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:16 12c2d427a68b4a608f669723d2bca930
+msgid "`<prefix> + x` 关闭当前 `pane` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:17 242e70df5e8c4a859c038cb0ed397bd2
+msgid "`<prefix> + [` / `<prefix> + ]` 实现 `window` 之间的切换;"
+msgstr ""
+
+#: ../../source/quickstart.rst:18 c8d094808b274b23985d0648a272e656
+msgid "`<prefix> + Ctrl-s` 保存当前的 `session` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:19 7e7808b83668403e90ea84bfd330f0a0
+msgid "`<prefix> + Ctrl-r` 加载之前保存的 `session` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:20 9ee950d8c6444cdc9a118c86126f1696
+msgid "`<prefix> + r` 重命名当前的 `window` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:21 23de5f59c8944799a587076775916e6e
+msgid "`<prefix> + R` 重命名当前的 `session` ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:24 4be24d87a51c40b781c811c11f4c9dbf
+msgid "Shell"
+msgstr ""
+
+#: ../../source/quickstart.rst:26 386352b887dd47898c5f6569195ca09a
+msgid ""
+"安装 `subframe7536/maple-font <https://github.com/subframe7536/Maple-"
+"font>`_ 字体;"
+msgstr ""
+
+#: ../../source/quickstart.rst:27 c0783326cca2449ab3574397abbdd491
+msgid ""
+"安装 `zsh` 和 `oh-my-zsh` ，`安装步骤 <https://github.com/ohmyzsh/ohmyzsh/wiki"
+"/Installing-ZSH>`_ ;"
+msgstr ""
+
+#: ../../source/quickstart.rst:28 1b767e0ffe6c4fbb888718cfa3a4a482
+msgid ""
+"安装 `zsh-users/zsh-autosuggestions <https://github.com/zsh-users/zsh-"
+"autosuggestions>`_ 插件;"
+msgstr ""
+
+#: ../../source/quickstart.rst:29 c0b3e800620d42c4af56a053ee67981d
+msgid ""
+"安装 `zsh-users/zsh-syntax-highlighting <https://github.com/zsh-users/zsh-"
+"syntax-highlighting>`_ 插件;"
+msgstr ""
+
+#: ../../source/quickstart.rst:30 15a7a921d48a4b42a42b8f5871bd7a88
+msgid ""
+"安装 `romkatv/powerlevel10k <https://github.com/romkatv/powerlevel10k>`_ "
+"zsh 主题;"
+msgstr ""
+
+#: ../../source/quickstart.rst:33 ../../source/quickstart.rst:55
+#: 030949f85b5c49a8a2c89cb542374b36 bc612dec96874739b3129266effc43ff
+msgid "Neovim"
+msgstr ""
+
+#: ../../source/quickstart.rst:35 ce4ecc8ad28b43ba96c80c698a4d3854
+msgid "了解 Neovim 中的 `session`, `tab`, `window`, `buffer` 的概念;"
+msgstr ""
+
+#: ../../source/quickstart.rst:36 83b1ef4d4960411db7cf976b149c853b
+msgid ""
+"从 `nvim-lua/kickstart.nvim <https://github.com/nvim-lua/kickstart.nvim>`_"
+" 开始，学习使用 `lazy.nvim <https://github.com/folke/lazy.nvim>`_ 管理插件;"
+msgstr ""
+
+#: ../../source/quickstart.rst:37 6b14d2468bc148968533d363eca462f8
+msgid "利用 `smoka7/hop.nvim <https://github.com/smoka7/hop.nvim>`_ 在 `buffer` 中移动;"
+msgstr ""
+
+#: ../../source/quickstart.rst:38 801262b17e0847189ecd9669dfeb1e2a
+msgid ""
+"利用 `akinsho/bufferline.nvim "
+"<https://github.com/akinsho/bufferline.nvim>`_ 快速切换 `buffer`;"
+msgstr ""
+
+#: ../../source/quickstart.rst:39 25d54609e9c34cd9b81cf38ea2441ddc
+msgid ""
+"利用 `nvim-neo-tree/neo-tree.nvim <https://github.com/nvim-neo-tree/neo-"
+"tree.nvim>`_ 实现文件管理;"
+msgstr ""
+
+#: ../../source/quickstart.rst:40 196d073cc2964f3d909477264d46e669
+msgid ""
+"利用 `nvim-telescope/telescope.nvim <https://github.com/nvim-"
+"telescope/telescope.nvim>`_ 实现各种搜索;"
+msgstr ""
+
+#: ../../source/quickstart.rst:41 234b8f32ee06406586be7bfcea7acdd0
+msgid ""
+"利用 `numToStr/Comment.nvim <https://github.com/numToStr/Comment.nvim>`_ "
+"快速注释;"
+msgstr ""
+
+#: ../../source/quickstart.rst:42 3f9f7a3bda3c465097f3e1ce78645f25
+msgid ""
+"利用 `neovim/nvim-lspconfig <https://github.com/neovim/nvim-lspconfig>`_ "
+"管理LSP服务;"
+msgstr ""
+
+#: ../../source/quickstart.rst:43 66a41beac66a43169c976e448277bd92
+msgid ""
+"利用 `williamboman/mason.nvim "
+"<https://github.com/williamboman/mason.nvim>`_ 管理常用的package;"
+msgstr ""
+
+#: ../../source/quickstart.rst:44 ad7ae8a102cb4b13a2491ebd5fbdfc4c
+msgid ""
+"利用 `olimorris/persisted.nvim "
+"<https://github.com/olimorris/persisted.nvim>`_ 保存和加载 Neovim 的 `session` "
+";"
+msgstr ""
+
+#: ../../source/quickstart.rst:45 697985696ca1475c9dd97c0d29066b30
+msgid ""
+"利用 `nvimdev/dashboard <https://github.com/glepnir/dashboard-nvim>`_ 自定义 "
+"dashbooard"
+msgstr ""
+
+#: ../../source/quickstart.rst:46 d3bc0721c10b45f7840eb697413676e7
+msgid ""
+"利用 `gitsigns.nvim <https://github.com/lewis6991/gitsigns.nvim>`_, "
+"`diffview.nvim <https://github.com/sindrets/diffview.nvim>`_, "
+"`lazygit.nvim <https://github.com/kdheepak/lazygit.nvim>`_ 等插件实现git版本管理;"
+msgstr ""
+
+#: ../../source/quickstart.rst:47 dba18dda6f7b4786bee3ab38fa1fa545
+msgid ""
+"利用 `mfussenegger/nvim-dap <https://github.com/mfussenegger/nvim-dap>`_ "
+"实现C/C++, Python, Nvim插件调试;"
+msgstr ""
+
+#: ../../source/quickstart.rst:48 0ecd5fbb89ec4400be6cb11aee0e172f
+msgid "TODO AI编程助手"
+msgstr ""
+
+#: ../../source/quickstart.rst:50 0c0a192816784aaba0be934a31817f1c
+msgid "Neovim v.s. VS Code"
+msgstr ""
+
+#: ../../source/quickstart.rst:54 adce5971b2cf4b85a86cba68ecc5488a
+msgid "VS Code"
+msgstr ""
+
+#: ../../source/quickstart.rst:56 df15b952951d4cfdb9972a2cbdd1f4ec
+msgid "参考"
+msgstr ""
+
+#: ../../source/quickstart.rst:58 5c4d1b9c7ab54dd88850c04dd62fb89d
+msgid "Workspace"
+msgstr ""
+
+#: ../../source/quickstart.rst:59 9abe32a1697045e687e981682d176d73
+msgid "`persisted.nvim <https://github.com/olimorris/persisted.nvim>`_"
+msgstr ""
+
+#: ../../source/quickstart.rst:60 6523c365e0df4a9f9496e6f7ba3cafaf
+msgid ":ref:`工作区 <workspace>`"
+msgstr ""
 
